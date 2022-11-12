@@ -1,0 +1,16 @@
+Тестирование нагрузки компьютера пользователя при работе с алгоритмами компьютерного зрения,,,,,,,,,,
+,,,,,,,,,,
+Питание от зарядного устройства,,,,,,Питание от аккумулятора,,,,
+"CPU: Intel(R) Core(TM) i5-1035G1,   GPU: NVIDIA GeForce MX330,    RAM: 6 GB,   Win: 10x64",,,,,,"CPU: Intel(R) Core(TM) i5-1035G1,   GPU: NVIDIA GeForce MX330,    RAM: 6 GB,   Win: 10x64",,,,
+Environment,"CPU Usage, %","GPU Usage, %","PowerUsage, W",FPS,,Environment,"CPU Usage, %","GPU Usage, %","PowerUsage, W",FPS
+Zoom,3,2.75,05.05,-,,Zoom,4,1.76,02.09,-
+"dummymodel_layers, worker=false",3,23.30,04.87,11,,"dummymodel_layers, worker=false",18,21.85,03.12,9
+"dummymodel_layers, worker=true",6,22.25,04.70,10,,"dummymodel_layers, worker=true",10,24.73,03.37,11
+"depth_context, worker=false",4,23.48,04.53,12,,"depth_context, worker=false",9,24.74,03.03,11
+"depth_context, worker=true",5,28.97,05.55,13,,"depth_context, worker=true",9,21.28,03.32,11
+"depth_context2, worker=false",4,24.70,05.03,11,,"depth_context2, worker=false",8,24.41,03.12,10
+"depth_context2, worker=true",4,22.42,04.74,10,,"depth_context2, worker=true",9,24.91,03.21,11
+"rcv, worker=false",3,19.94,04.36,10,,"rcv, worker=false",7,20.20,02.86,10
+"rcv, worker=true",4,22.77,04.63,10,,"rcv, worker=true",7,17.67,02.92,9
+"mnv2_hybrid_mini_tuned2_graph, worker=false",4,23.46,04.53,9,,"mnv2_hybrid_mini_tuned2_graph, worker=false",9,23.65,03.17,8
+"mnv2_hybrid_mini_tuned2_graph, worker=true",4,27.37,04.95,9,,"mnv2_hybrid_mini_tuned2_graph, worker=true",9,23.40,03.15,9
