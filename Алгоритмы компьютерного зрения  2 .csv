@@ -1,0 +1,134 @@
+Тестирование нагрузки компьютера пользователя при работе с алгоритмами компьютерного зрения,,,,,,
+"Предусловие:
+ 1. Выключены ВСЕ программы на компьютере, в том числе и Антивирусы, Telegram.
+ 2. Включен Intel Power Gadget.",,,,,,
+Условия,,,,,,Результат
+"Test 1:
+ 1. Включите Zoom и запустите в нём трансляцию с видео.
+ 2. Побудьте в кадре Zoom 45-60 секунд.
+ 3. Найдите в Intel Power Gadget / Task Manager параметры CPU Util, GPU Util, Package Pwr (Power Usage).
+ 4. Введите в форму параметры PU Util, GPU Util, Package Pwr (Power Usage).
+ 5. Отправьте форму.
+ 6. Выключить Zoom полностью.",,,,,,"СPU Util = 4%
+GPU Util = 02.11%
+ P.  PWR = 2.19W"
+"Test 2:
+ 1. Открыть в Google Chrome ссылку https://cdn.sdk-webar-demo.on.banuba.net/rc-pipeline/index.html
+ 2. Выбрать Model: dummy1x1
+ 3. Разрешить использовать камеру если появится окно с запросом
+ 4. Включить чекбокс Use WebWorker.
+ 5. Появится картинка (в ней не будет видео вашего лица, в других моделях будет)
+ 6. Zoom like optimization: оставить выключенным.
+ 7. Смотреть в камеру 45-60 секунд
+ 8. Найи на странице параметр FPS.
+ 9. Найдите в Intel Power Gadget / Task Manager параметры CPU Util, GPU Util, Package Pwr (Power Usage)
+ 10. Введите в форму параметры FPS,  PU Util, GPU Util, Package Pwr (Power Usage).
+ 11. Отправьте форму.",,,,,,"       FPS = 10     
+СPU Util = 6%
+GPU Util = 06.00%
+  P. PWR = 2.52W"
+"Test 3:
+ 1. Открыть в Google Chrome ссылку https://cdn.sdk-webar-demo.on.banuba.net/rc-pipeline/index.html.
+ 2. Выбрать Model: dummy1x1.
+ 3. Разрешить использовать камеру если появится окно с запросом.
+ 4. Включить чекбокс Use WebWorker.
+ 5. Появится картинка (в ней не будет видео вашего лица, в других моделях будет).
+ 6. Zoom like optimization: включить.
+ 7. Смотреть в камеру 45-60 секунд.
+ 8. Найи на странице параметр FPS.
+ 9. Найдите в Intel Power Gadget / Task Manager параметры CPU Util, GPU Util, Package Pwr (Power Usage).
+ 10. Введите в форму параметры FPS,  PU Util, GPU Util, Package Pwr (Power Usage).
+ 11. Отправьте форму.",,,,,,"       FPS = 11     
+СPU Util = 7%
+GPU Util = 05.68%
+  P. PWR = 2.67W"
+"Test 4:
+1. Открыть в Google Chrome ссылку https://cdn.sdk-webar-demo.on.banuba.net/rc-pipeline/index.html.
+2. Выбрать Model: rcv.
+3. Разрешить использовать камеру если появится окно с запросом.
+4. Включить чекбокс Use WebWorker.
+5. Появится картинка (в ней не будет видео вашего лица, в других моделях будет).
+6. Zoom like optimization: оставить выключенным.
+7. Смотреть в камеру 45-60 секунд.
+8. Найи на странице параметр FPS.
+9. Найдите в Intel Power Gadget / Task Manager параметры CPU Util, GPU Util, Package Pwr (Power Usage).
+10. Введите в форму параметры FPS,  PU Util, GPU Util, Package Pwr (Power Usage).
+11. Отправьте форму.",,,,,,"       FPS = 11     
+СPU Util = 9%
+GPU Util = 25.10%
+  P. PWR = 3.28W"
+"Test 5:
+ 1. Открыть в Google Chrome ссылку https://cdn.sdk-webar-demo.on.banuba.net/rc-pipeline/index.html.
+ 2. Выбрать Model: rcv.
+ 3. Разрешить использовать камеру если появится окно с запросом.
+ 4. Включить чекбокс Use WebWorker.
+ 5. Появится картинка (в ней не будет видео вашего лица, в других моделях будет).
+ 6. Zoom like optimization: включить.
+ 7. Смотреть в камеру 45-60 секунд.
+ 8. Найи на странице параметр FPS.
+ 9. Найдите в Intel Power Gadget / Task Manager параметры CPU Util, GPU Util, Package Pwr (Power Usage).
+ 10. Введите в форму параметры FPS,  PU Util, GPU Util, Package Pwr (Power Usage).
+ 11. Отправьте форму.",,,,,,"       FPS = 12    
+СPU Util = 8%
+GPU Util = 14.46%
+  P. PWR = 2.52W"
+"Test 6:
+ 1. Открыть в Google Chrome ссылку https://cdn.sdk-webar-demo.on.banuba.net/rc-pipeline/index.html.
+ 2. Выбрать Model: bnb_rcv_fast.
+ 3. Разрешить использовать камеру если появится окно с запросом.
+ 4. Включить чекбокс Use WebWorker.
+ 5. Появится картинка (в ней не будет видео вашего лица, в других моделях будет).
+ 6. Zoom like optimization: оставить выключенным.
+ 7. Смотреть в камеру 45-60 секунд.
+ 8. Найи на странице параметр FPS.
+ 9. Найдите в Intel Power Gadget / Task Manager параметры CPU Util, GPU Util, Package Pwr (Power Usage).
+ 10. Введите в форму параметры FPS,  PU Util, GPU Util, Package Pwr (Power Usage).
+ 11. Отправьте форму.",,,,,,"       FPS = 10     
+СPU Util = 9%
+GPU Util = 26.99%
+  P. PWR = 3.18W"
+"Test 7:
+ 1. Открыть в Google Chrome ссылку https://cdn.sdk-webar-demo.on.banuba.net/rc-pipeline/index.html.
+ 2. Выбрать Model: bnb_rcv_fast.
+ 3. Разрешить использовать камеру если появится окно с запросом.
+ 4. Включить чекбокс Use WebWorker.
+ 5. Появится картинка (в ней не будет видео вашего лица, в других моделях будет).
+ 6. Zoom like optimization: включить.
+ 7. Смотреть в камеру 45-60 секунд.
+ 8. Найи на странице параметр FPS.
+ 9. Найдите в Intel Power Gadget / Task Manager параметры CPU Util, GPU Util, Package Pwr (Power Usage).
+ 10. Введите в форму параметры FPS,  PU Util, GPU Util, Package Pwr (Power Usage).
+ 11. Отправьте форму.",,,,,,"       FPS = 11     
+СPU Util = 8%
+GPU Util = 16.75%
+  P. PWR = 2.89W"
+"Test 8:
+1. Открыть в Google Chrome ссылку https://cdn.sdk-webar-demo.on.banuba.net/rc-pipeline/index.html.
+2. Выбрать Model: bnb_rcv_rethinker.
+3. Разрешить использовать камеру если появится окно с запросом.
+4. Включить чекбокс Use WebWorker.
+5. Появится картинка (в ней не будет видео вашего лица, в других моделях будет).
+6. Zoom like optimization: оставить выключенным.
+7. Смотреть в камеру 45-60 секунд.
+8. Найи на странице параметр FPS.
+9. Найдите в Intel Power Gadget / Task Manager параметры CPU Util, GPU Util, Package Pwr (Power Usage).
+10. Введите в форму параметры FPS,  PU Util, GPU Util, Package Pwr (Power Usage).
+11 Отправьте форму.",,,,,,"       FPS = 10     
+СPU Util = 9%
+GPU Util = 27.02%
+  P. PWR = 3.27W"
+"Test 9:
+ 1. Открыть в Google Chrome ссылку https://cdn.sdk-webar-demo.on.banuba.net/rc-pipeline/index.html.
+ 2. Выбрать Model: bnb_rcv_rethinker.
+ 3. Разрешить использовать камеру если появится окно с запросом.
+ 4. Включить чекбокс Use WebWorker.
+ 5. Появится картинка (в ней не будет видео вашего лица, в других моделях будет).
+ 6. Zoom like optimization: включить.
+ 7. Смотреть в камеру 45-60 секунд.
+ 8. Найи на странице параметр FPS.
+ 9. Найдите в Intel Power Gadget / Task Manager параметры CPU Util, GPU Util, Package Pwr (Power Usage).
+ 10. Введите в форму параметры FPS,  PU Util, GPU Util, Package Pwr (Power Usage).
+ 11. Отправьте форму.",,,,,,"       FPS = 9     
+СPU Util = 6%
+GPU Util = 12.00%
+  P. PWR = 2.52W"
